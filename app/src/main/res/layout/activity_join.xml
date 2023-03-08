@@ -7,6 +7,7 @@
     android:orientation="vertical"
     tools:context=".JoinActivity">
     <Button
+        android:backgroundTint="@color/black"
         android:id="@+id/btnCreateMeeting"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -31,6 +32,7 @@
     <Button
         android:id="@+id/btnJoinMeeting"
         android:layout_width="wrap_content"
+        android:backgroundTint="@color/black"
         android:layout_height="wrap_content"
         android:text="Join Meeting" />
 </LinearLayout>
